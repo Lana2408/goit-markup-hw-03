@@ -4,6 +4,7 @@
     --light-color: #F4F4FD;
     --main-color: #434455;
     --hover-color: #404BBF;
+    --border-color: #E7E9FC;
 }
 
 body {
@@ -25,6 +26,10 @@ ul {
 
 img {
     display: block;
+}
+
+header {
+    border-bottom: 1px solid var(--border-color);
 }
 
 .section {
@@ -240,14 +245,11 @@ img {
     text-transform: capitalize;
 }
 
-.team-img {
-    margin-bottom: 32px;
-}
 
 .team-content {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    padding-top: 32px;
     text-align: center;
-
 }
 
 .member-name,
@@ -292,7 +294,48 @@ img {
 
 /* Portfolio page */
 
+.portfolio-section {
+    padding-top: 96px;
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 72px;
+}
+
+.btn-item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -24px -12px;
+}
+
+.portfolio-item {
+    width: 360px;
+    margin: 24px 12px;
+}
+
+.portgolio-content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px solid var(--border-color);
+}
+
+.portfolio-title,
+.portfolio-text {
+    margin-left: 16px;
+}
+
+
+
 .btn-filter {
+    padding: 12px 24px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
