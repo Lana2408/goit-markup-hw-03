@@ -203,6 +203,10 @@ img {
 
 /* Our work and Our team section*/
 
+.work-section {
+    padding-top: 0;
+}
+
 
 
 .works-list,
@@ -214,14 +218,22 @@ img {
 
 .team-section {
     background-color: var(--light-color);
-}
 
+}
 
 .team-item {
-    background-color: #ffffff;
     width: calc((100% - 72px) / 4);
+
+
 }
 
+.team-content {
+    padding: 32px 16px;
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #ffffff;
+
+}
 
 .work-title,
 .team-title {
@@ -236,11 +248,7 @@ img {
 }
 
 
-.team-content {
-    padding: 32px 16px;
-    text-align: center;
-    border-radius: 0px 0px 4px 4px;
-}
+
 
 .member-name,
 .portfolio-title {
