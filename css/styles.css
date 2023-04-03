@@ -70,6 +70,7 @@ img {
 
 .nav-list {
     display: flex;
+    gap: 40px;
 }
 
 
@@ -92,12 +93,6 @@ img {
 .logo-white {
     color: var(--light-color);
 }
-
-.nav-list {
-    gap: 40px;
-}
-
-
 
 .nav-bar-link {
     display: inline-block;
@@ -224,11 +219,9 @@ img {
 
 .team-item {
     background-color: #ffffff;
-}
-
-.team-list {
     width: calc((100% - 72px) / 4);
 }
+
 
 .work-title,
 .team-title {
