@@ -295,7 +295,8 @@ img {
 /* Portfolio page */
 
 .portfolio-section {
-    padding: 96px 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .btn-list {
@@ -326,12 +327,6 @@ img {
     border: 1px solid var(--border-color);
     border-top: none;
 }
-
-.portfolio-title,
-.portfolio-text {
-    margin-left: 16px;
-}
-
 
 
 .btn-filter {
